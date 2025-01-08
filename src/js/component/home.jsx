@@ -6,7 +6,8 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div className="container my-4">
+			<h1 className="text-center ">TODO LIST CON FETCH</h1>
 			<TodoList/>
 		</div>
 	);
